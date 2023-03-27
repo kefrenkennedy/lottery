@@ -29,3 +29,5 @@ def verifica_listas(lista_principal: list, lista_verificada: list) -> str:
         if lista == lista_verificada:
             return "Esse jogo já ocorreu."
     return "Esse jogo nunca ocorreu."
+
+print(verifica_listas(get_lotofacil_results(), []))
